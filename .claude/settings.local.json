@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Recurse \"c:\\\\Users\\\\lepel\\\\OneDrive\\\\Desktop\\\\교육자료\\\\RPA 교육자료\\\\rpa_2kteck_lab\\\\docs\" | Where-Object { -not $_.PSIsContainer } | Select-Object FullName)"
+    ]
+  }
+}
