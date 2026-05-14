@@ -5,8 +5,9 @@ parent: 📘 기본과정
 nav_order: 1
 ---
 
+<img src="{{ '/assets/images/m00_orientation.png' | relative_url }}">
+
 # M0. 오리엔테이션
-<img src="/assets/images/m00_orientation.png">
 
 ## 🎯 학습 목표
 
