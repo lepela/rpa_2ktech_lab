@@ -6,7 +6,7 @@ nav_order: 2
 ---
 
 # M1. Power Platform 개요
-
+<img src="/assets/images/m01_overview.png">
 ## 🎯 학습 목표
 
 - 자동화가 왜 필요한지 실제 사례로 이해합니다.

@@ -6,6 +6,7 @@ nav_order: 1
 ---
 
 # M0. 오리엔테이션
+<img src="/assets/images/m00_orientation.png">
 
 ## 🎯 학습 목표
 
@@ -24,26 +25,23 @@ nav_order: 1
 
 ## 오늘 배울 것 — 한눈에 보기
 
-```
-M0. 오리엔테이션 (지금 여기!)
-  ↓
-M1. Power Platform이 뭔가요?
-  ↓
-M2. PAD 기초 — 화면 파악 + 변수 + 제어구조
-  ↓
-M2-Lab. 첫 번째 흐름 직접 만들기
-  ↓
-M3. 웹 + 엑셀 자동화
-  ↓
-M3-Lab. 오피넷 유가 → 엑셀 기록
-  ↓
-M4. UI + 이메일 자동화
-  ↓
-M4-Lab. Contoso 반복 입력 + 완료 메일
-  ↓
-M5. PA 클라우드 흐름 맛보기
-  ↓
-M6. 마무리 & 다음 단계
+```mermaid
+flowchart TD
+    M0([M0. 오리엔테이션 <br> 📍 지금 여기!]):::current
+    M1(M1. Power Platform이 뭔가요?)
+    M2(M2. PAD 기초 <br> 화면 파악 + 변수 + 제어구조)
+    M2L[[M2-Lab. 첫 번째 흐름 직접 만들기]]:::lab
+    M3(M3. 웹 + 엑셀 자동화)
+    M3L[[M3-Lab. 오피넷 유가 → 엑셀 기록]]:::lab
+    M4(M4. UI + 이메일 자동화)
+    M4L[[M4-Lab. Contoso 반복 입력 + 완료 메일]]:::lab
+    M5(M5. PA 클라우드 흐름 맛보기)
+    M6([M6. 마무리 & 다음 단계])
+
+    M0 --> M1 --> M2 --> M2L --> M3 --> M3L --> M4 --> M4L --> M5 --> M6
+
+    classDef current fill:#ffd54f,stroke:#f57f17,stroke-width:2px,color:#000
+    classDef lab fill:#e3f2fd,stroke:#1e88e5,stroke-width:2px,color:#000
 ```
 
 ---
