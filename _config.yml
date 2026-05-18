@@ -23,7 +23,7 @@ description: >-
   Power Automate / Power Automate Desktop 교육 사이트.
   코딩 경험 없는 시티즌 개발자를 위한 하루 완성 과정.
 baseurl: "/rpa_2ktech_lab"
-url: "https://github.com/lepela"
+url: "https://lepela.github.io"
 # url: "localhost:4000"
 
 # Build settings
